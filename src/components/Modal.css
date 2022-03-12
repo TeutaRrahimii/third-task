@@ -1,0 +1,82 @@
+.modalBackground{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 600px;
+    height: 430px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgb(0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title .p{
+    color: rgb(117, 117, 255);
+}
+.Lbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Lbody button{
+    width: 60px;
+    height: 23px;
+    border: none;
+    border-radius: 3px;
+}
+.line1 button{
+    background-color: #444444;
+}
+.line2 button{
+    background-color: #FFFFFF;
+    border: 1px solid #b9b7b7;
+}
+.line3 button{
+    background-color: #2072EF;
+}
+.line4 button{
+    background-color: #2072EF;
+}
+.line5 button{
+    background-color: #0053D1;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-cancel{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 0.2px solid rgb(194, 194, 194);
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+.btn-save{
+    width: 100px;
+    height: 35px;
+    background-color: #2072EF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
